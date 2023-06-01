@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #EDEFEC;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container-main{
+    margin-top: 20px;
+    height: 90%;
+    width: 90%;
+    background-color: #EDEFEC99;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-self: center;
+}
+
+.modal {
+    background-color: red;
+    width: 100vw;
+    display: flex;
+    flex-flow: row no-repeat;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal .modal-content{
+    background-color: #22222299;
+    color: whitesmoke;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+.button-open{
+    cursor: pointer;
+}
+
+.button-close {
+    text-align: end;
+    margin-left: 95%;
+    margin-top: 10px;
+    background-color: #DD2244;
+    border-bottom: 20px;
+    cursor: pointer;
+}
+
+.name-album{
+    background-color: #EDEFEC;
+}
+
+.name-music p {
+    margin-right: 300px;
+}
+
+main {
+    width: 100%;
+    padding: 5px;
+}
+
+header {
+    background-color: #EDEFEC;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 4px 6px -6px #222;
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container-search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-input {
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.search-button {
+    width: 200px;
+    border-radius: 20px;
+    background-color: #225588;
+    padding: 10px;
+}

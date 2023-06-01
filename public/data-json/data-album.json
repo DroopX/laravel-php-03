@@ -1,0 +1,29 @@
+{
+    "album": [
+        {
+            "nome-album": "Álbum: Rei do Gado, 1961",
+            "music": [
+                {
+                    "numero": "11",
+                    "name-music": "Minas Gerais",
+                    "tempo": "3:47"
+                }
+            ]
+        },
+        {
+            "nome-album": "Álbum: Rei do Gado, 1961",
+            "music": [
+                {
+                    "numero": "1",
+                    "name-music": "O Mineiro e o Italiano",
+                    "tempo": "3:21"
+                },
+                {
+                    "numero": "8",
+                    "name-music": "Minha prece",
+                    "tempo": "2:42"
+                }
+            ]
+        }
+    ]
+}
